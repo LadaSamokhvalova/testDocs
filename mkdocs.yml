@@ -8,10 +8,11 @@ theme:
   name: material
   palette:
     scheme: default
-    primary: green 
+#    primary: custom
+#    accent: blue grey
 
   font:
-    text: Merriweather Sans
+    text: Onest
 
 
 markdown_extensions:
@@ -37,3 +38,6 @@ plugins:
       version_selector: true
       css_dir: css
       javascript_dir: js
+
+extra_css:
+  - stylesheets/extra.css
